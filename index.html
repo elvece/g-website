@@ -11,6 +11,7 @@
 
     <!-- favicon -->
     <!--<link rel="icon" type="image/png" href="assets/images/other_images/favicon.png"> -->
+
     <!-- Bootstrap core CSS -->
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap theme -->
@@ -41,37 +42,37 @@
   <!-- data-overlay-opacity: set the opacity/transparency of the black overlay -->
   <body data-default-background-img="assets/images/custom_images/background/moon.jpg" data-overlay="true" data-overlay-opacity="0.35">
 
-    <!-- Outer Container -->
+    <!--===== OUTER CONTAINER =====-->
     <div id="outer-container">
 
       <!-- Left Sidebar -->
       <section id="left-sidebar">
 
-        <!-- LOGO-->
+        <!--===== LOGO =====-->
         <div class="logo">
           <a href="#intro" class="link-scroll"><img src="assets/images/custom_images/logo/logo_1_white.png" alt="LV Logo"></a>
         </div><!-- .logo -->
-        <!-- END LOGO -->
+        <!--===== END LOGO =====-->
 
         <!-- Menu Icon for smaller viewports -->
         <div id="mobile-menu-icon" class="visible-xs" onClick="toggle_main_menu();"><span class="glyphicon glyphicon-th"></span></div>
 
-        <!-- MAIN MENU -->
+        <!--===== MAIN MENU =====-->
         <ul id="main-menu">
           <li id="menu-item-about" class="menu-item scroll"><a href="#about">About</a></li>
           <li id="menu-item-projects" class="menu-item scroll"><a href="#projects">Projects</a></li>
           <li id="menu-item-skills" class="menu-item scroll"><a href="#skills">Skills</a></li>
           <li id="menu-item-contact" class="menu-item scroll"><a href="#contact">Contact</a></li>
         </ul><!-- #main-menu -->
-        <!-- END MAIN MENU -->
+        <!--===== END MAIN MENU =====-->
 
       </section><!-- #left-sidebar -->
       <!-- end: Left Sidebar -->
 
-      <!-- MAIN CONTENT -->
+      <!--===== MAIN CONTENT =====-->
       <section id="main-content" class="clearfix">
 
-        <!-- INTRO -->
+        <!--===== INTRO =====-->
         <article id="intro" class="section-wrapper clearfix" data-custom-background-img="">
           <div class="content-wrapper clearfix wow fadeInDown" data-wow-delay="0.3s">
             <div class="col-sm-10 col-md-9 pull-right">
@@ -87,9 +88,9 @@
             </div><!-- .col-sm-10 -->
           </div><!-- .content-wrapper -->
         </article><!-- .section-wrapper -->
-        <!-- END INTRO -->
+        <!--===== END INTRO =====-->
 
-        <!-- ABOUT -->
+        <!--===== ABOUT =====-->
         <article id="about" class="section-wrapper clearfix" data-custom-background-img="">
           <div class="content-wrapper clearfix">
             <div class="col-sm-10 col-md-10 pull-right">
@@ -104,9 +105,9 @@
             </div><!-- .col-sm-10 -->
           </div><!-- .content-wrapper -->
         </article><!-- .section-wrapper -->
-        <!-- END ABOUT -->
+        <!--===== END ABOUT =====-->
 
-        <!-- PROJECTS-->
+        <!--===== PROJECTS =====-->
         <article id="carousel" class="section-wrapper clearfix" data-custom-background-img="">
           <div class="content-wrapper clearfix">
 
@@ -153,26 +154,22 @@
                       <!-- every Owl Carousel with class .popup-image-gallery are initialised with same parameters when popup is showing (initialised in /js/initialise-functions.js).
                         - If you want to create an Owl Carousel with different parameters, remove the class .popup-image-gallery, and intialise it in /js/initialise-function.js or at the footer of this page using the unique ID of that particular carousel instead of the class -->
                       <div id="dry-blog-image-slider" class="owl-carousel popup-image-gallery">
-
                         <!-- slide -->
                         <div>
                           <h6 class="caption">Landing page</h6>
                           <img class="lazyOwl" data-src="assets/images/custom_images/projects/dry_home.png">
                         </div>
-
                         <!-- slide -->
                         <div>
                           <h6 class="caption">Home page content</h6>
                           <img class="lazyOwl" data-src="assets/images/custom_images/projects/dry_home_content.png">
                         </div>
-
                         <!-- slide -->
                         <div>
                           <h6 class="caption">Individual interview page</h6>
                           <img class="lazyOwl" data-src="assets/images/custom_images/projects/dry_individual.png">
                         </div>
-
-                      </div>
+                      </div><!-- end slider div -->
                       <!-- end: image slider inside popup -->
                     </div><!-- #modal-content-6 -->
                       <!-- end: slide content to edit -->
@@ -183,122 +180,106 @@
                   <!-- CAROUSEL SLIDE 4 -->
                   <div class="item">
                     <div class="carousel-text-content">
-                      <!-- start: slide content to edit -->
-                      <img src="" class="icon" alt="Bananas & Butterflies">
-                      <!-- if you want to use bootstrap glyphicons instead, replace the above <img> with the commented <span> below -->
-                      <!-- <span class="icon glyphicon glyphicon-record"></span> -->
                       <h2 class="title">Bananas & Butterflies</h2>
-                      <p>Challenged to create a language translation service, this application aims to provide users with the ability to practice translating words, challange themselves in pertinent language learning topics through a quiz, and track their overall progress. This site is a collaborative creation resulting from the combined efforts of <a href="http://www.zoeadelman.com" target="_blank">Zoë Adelman</a>, <a href="https://github.com/SarahNoel" target="_blank">Sarah Noel</a>, <a href="https://github.com/KierstonHill83" target="_blank">Kierston Hill</a>, and myself.</p>
-                      <!-- to make a popup/modal link add an onClick function call to the function:
-                        - populate_and_open_modal(event, '[id of popup content container - see below]') -->
+                      <i class="icon-javascript-alt"> Javascript&nbsp</i>
+                      <i class="fa fa-cube"><em> JQuery&nbsp</em></i>
+                      <i class="icon-css">CSS&nbsp</i>
+                      <i class="icon-html">HTML&nbsp</i>
+                      <i class="fa fa-server"><em> Node/Express</em></i>
+                      <i class="icon-mongodb">MongoDB</i>
+
+                      <p>Challenged to create a language translation service, this application aims to provide users with the ability to practice translating words, challange themselves in pertinent language learning topics through a quiz, and track their overall progress. Translations made possible the the Bing Translator API. This site is a collaborative creation resulting from the combined efforts of <a href="http://www.zoeadelman.com" target="_blank">Zoë Adelman</a>, <a href="https://github.com/SarahNoel" target="_blank">Sarah Noel</a>, <a href="https://github.com/KierstonHill83" target="_blank">Kierston Hill</a>, and myself.</p>
+
                       <p><a href="" onclick="populate_and_open_modal(event, 'modal-content-4');" class="btn btn-outline-inverse btn-sm">MORE INFO</a></p>
-                    <!-- content which will be shown in the popup/modal when clicking on the above link
-                        - it is important to set a unique id -->
-                    <div class="content-to-populate-in-modal" id="modal-content-4">
-                      <h1>Bananas & Butterflies</h1>
-                      <p>Included here are still images from the site. Click and drag to scroll through the images.<br/></p>
 
-                      <!-- image slider inside popup -->
-                      <!-- documentation for Owl Carousel: http://www.owlgraphic.com/owlcarousel/#how-to -->
-                      <!-- every Owl Carousel with class .popup-image-gallery are initialised with same parameters when popup is showing (initialised in /js/initialise-functions.js).
-                        - If you want to create an Owl Carousel with different parameters, remove the class .popup-image-gallery, and intialise it in /js/initialise-function.js or at the footer of this page using the unique ID of that particular carousel instead of the class -->
-                      <div id="translator-image-slider" class="owl-carousel popup-image-gallery">
+                      <!-- modal content -->
+                      <div class="content-to-populate-in-modal" id="modal-content-4">
+                        <h1>Bananas & Butterflies Images</h1>
+                        <p>Included here are screenshots from the site. Site launch TBD.<br/></p>
 
-                        <!-- slide -->
-                        <div>
-                          <!-- caption is optional. To remove it, remove the <h6> below -->
-                          <h6 class="caption">Landing page</h6>
-                          <img class="lazyOwl" data-src="assets/images/custom_images/bananas_home.png">
-                        </div>
+                        <div id="translator-image-slider" class="owl-carousel popup-image-gallery">
+                          <!-- slide -->
+                          <div>
+                            <!-- caption is optional. To remove it, remove the <h6> below -->
+                            <h6 class="caption">Landing page</h6>
+                            <img class="lazyOwl" data-src="assets/images/custom_images/bananas_home.png">
+                          </div>
 
-                        <!-- slide -->
-                        <div>
-                          <h6 class="caption">Home page content</h6>
-                          <img class="lazyOwl" data-src="assets/images/custom_images/bananas_content.png">
-                        </div>
+                          <!-- slide -->
+                          <div>
+                            <h6 class="caption">Home page content</h6>
+                            <img class="lazyOwl" data-src="assets/images/custom_images/bananas_content.png">
+                          </div>
 
-                        <!-- slide -->
-                        <div>
-                          <h6 class="caption">Translation page</h6>
-                          <img class="lazyOwl" data-src="assets/images/custom_images/bananas_translating.png">
-                        </div>
+                          <!-- slide -->
+                          <div>
+                            <h6 class="caption">Translation page</h6>
+                            <img class="lazyOwl" data-src="assets/images/custom_images/bananas_translating.png">
+                          </div>
 
-                        <!-- slide -->
-                        <div>
-                          <h6 class="caption">Challenge page showing category choices</h6>
-                          <img class="lazyOwl" data-src="assets/images/custom_images/bananas_challenge_choices.png">
-                        </div>
+                          <!-- slide -->
+                          <div>
+                            <h6 class="caption">Challenge page showing category choices</h6>
+                            <img class="lazyOwl" data-src="assets/images/custom_images/bananas_challenge_choices.png">
+                          </div>
 
-                        <!-- slide -->
-                        <div>
-                          <h6 class="caption">Challenge in progress</h6>
-                          <img class="lazyOwl" data-src="assets/images/custom_images/bananas_challenge_progress.png">
-                        </div>
+                          <!-- slide -->
+                          <div>
+                            <h6 class="caption">Challenge in progress</h6>
+                            <img class="lazyOwl" data-src="assets/images/custom_images/bananas_challenge_progress.png">
+                          </div>
 
-                        <!-- slide -->
-                        <div>
-                          <h6 class="caption">Stats page</h6>
-                          <img class="lazyOwl" data-src="assets/images/custom_images/bananas_stats.png">
-                        </div>
-
-                      </div>
-                      <!-- end: image slider inside popup -->
-                    </div><!-- #modal-content-6 -->
-                      <!-- end: slide content to edit -->
-                    </div>
+                          <!-- slide -->
+                          <div>
+                            <h6 class="caption">Stats page</h6>
+                            <img class="lazyOwl" data-src="assets/images/custom_images/bananas_stats.png">
+                          </div>
+                        </div><!-- end: image slider inside popup -->
+                      </div><!-- #modal-content-6 -->
+                    </div> <!-- end: slide content -->
                   </div><!-- .item -->
                   <!-- END: CAROUSEL SLIDE 4 -->
 
                   <!-- CAROUSEL SLIDE 5 -->
                   <div class="item">
                     <div class="carousel-text-content">
-                      <!-- start: slide content to edit -->
-                      <img src="" class="icon" alt="Hike Generator">
-                      <!-- if you want to use bootstrap glyphicons instead, replace the above <img> with the commented <span> below -->
-                      <!-- <span class="icon glyphicon glyphicon-record"></span> -->
                       <h2 class="title">Hike Generator</h2>
+                      <i class="icon-javascript-alt"> Javascript&nbsp</i>
+                      <i class="fa fa-cube"><em> JQuery&nbsp</em></i>
+                      <i class="icon-css">CSS&nbsp</i>
+                      <i class="icon-html">HTML&nbsp</i>
+
                       <p>This application seeks to solve the often difficult decision of which hike to choose in colorful Colorado. Users complete a short questionnaire where, based on their input factors, receive an individualized hike option. This project is a current work in progress, as I hope to expand the functionality to include more search parameters, a viewport for all hike options, and extended map features.</p>
-                      <!-- to make a popup/modal link add an onClick function call to the function:
-                        - populate_and_open_modal(event, '[id of popup content container - see below]') -->
+
                       <p><a href="" onclick="populate_and_open_modal(event, 'modal-content-5');" class="btn btn-outline-inverse btn-sm">MORE INFO</a></p>
-                    <!-- content which will be shown in the popup/modal when clicking on the above link
-                        - it is important to set a unique id -->
-                    <div class="content-to-populate-in-modal" id="modal-content-5">
-                      <h1>Hike Generator</h1>
-                      <p>Included here are still images from the site. Click and drag to scroll through the images.<br/></p>
 
-                      <!-- image slider inside popup -->
-                      <!-- documentation for Owl Carousel: http://www.owlgraphic.com/owlcarousel/#how-to -->
-                      <!-- every Owl Carousel with class .popup-image-gallery are initialised with same parameters when popup is showing (initialised in /js/initialise-functions.js).
-                        - If you want to create an Owl Carousel with different parameters, remove the class .popup-image-gallery, and intialise it in /js/initialise-function.js or at the footer of this page using the unique ID of that particular carousel instead of the class -->
-                      <div id="dry-blog-image-slider" class="owl-carousel popup-image-gallery">
+                      <!-- modal content -->
+                      <div class="content-to-populate-in-modal" id="modal-content-5">
+                        <h1>Hike Generator</h1>
+                        <p>Included here are still images from the site. Click and drag to scroll through the images.<br/></p>
 
-                        <!-- slide -->
-                        <div>
-                          <!-- caption is optional. To remove it, remove the <h6> below -->
-                          <h6 class="caption">Landing page</h6>
-                          <img class="lazyOwl" data-src="assets/images/custom_images/hike_home.png">
-                        </div>
-
-                        <!-- slide -->
-                        <div>
-                          <h6 class="caption">Quiz section</h6>
-                          <img class="lazyOwl" data-src="assets/images/custom_images/hike_quiz.png">
-                        </div>
-
-                        <!-- slide -->
-                        <div>
-                          <h6 class="caption">Hike quiz result</h6>
-                          <img class="lazyOwl" data-src="assets/images/custom_images/hike_result.png">
-                        </div>
-
-                      </div>
-                      <!-- end: image slider inside popup -->
-                    </div><!-- #modal-content-6 -->
-                      <!-- end: slide content to edit -->
+                        <div id="hike-image-slider" class="owl-carousel popup-image-gallery">
+                          <!-- slide -->
+                          <div>
+                            <!-- caption is optional. To remove it, remove the <h6> below -->
+                            <h6 class="caption">Landing page</h6>
+                            <img class="lazyOwl" data-src="assets/images/custom_images/hike_home.png">
+                          </div>
+                          <!-- slide -->
+                          <div>
+                            <h6 class="caption">Quiz section</h6>
+                            <img class="lazyOwl" data-src="assets/images/custom_images/hike_quiz.png">
+                          </div>
+                          <!-- slide -->
+                          <div>
+                            <h6 class="caption">Hike quiz result</h6>
+                            <img class="lazyOwl" data-src="assets/images/custom_images/hike_result.png">
+                          </div>
+                        </div><!-- end: image slider inside popup -->
+                      </div><!-- #modal-content-6 -->
                     </div>
                   </div><!-- .item -->
-                  <!-- END: CAROUSEL SLIDE 3 -->
+                  <!-- END: CAROUSEL SLIDE 5 -->
 
                 </div><!-- .carousel-inner -->
 
@@ -308,18 +289,11 @@
                 <a class="right carousel-control" href="#features-carousel" data-slide="next"></a>
 
               </div><!-- #about-carousel -->
-
-            <!-- End: Section content to edit -->
-
           </div><!-- .content-wrapper -->
         </article><!-- .section-wrapper -->
-        <!-- ==================== END: SECTION TYPE: Carousel ==================== -->
+        <!--===== END PROJECTS =====-->
 
-        <!-- ==================== SECTION TYPE: Features Grid ==================== -->
-        <!-- This type of section should contain a grid with separate items consisting of an icon and text -->
-        <!-- FOR EACH SECTION <article class="section-wrapper".. :
-             - remember to use a unique id,
-             - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+        <!--===== SKILLS =====-->
         <article id="grid" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/bg2.jpg">
           <div class="content-wrapper clearfix">
             <div class="col-sm-11 col-md-10 pull-right">
@@ -393,79 +367,68 @@
             </div><!-- .col-sm-11 -->
           </div><!-- .content-wrapper -->
         </article><!-- .section-wrapper -->
-        <!-- ==================== END: SECTION TYPE: Features Grid ==================== -->
+        <!--===== END SKILLS =====-->
 
 
 
-        <!-- ==================== SECTION TYPE: Contact ==================== -->
-        <!-- This type of section should contain text (contact details) and a contact form -->
-        <!-- FOR EACH SECTION <article class="section-wrapper".. :
-             - remember to use a unique id,
-             - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+        <!--==== CONTACT =====-->
         <article id="contact" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/bg4.jpg">
           <div class="content-wrapper clearfix">
 
-              <!-- Start: Section content to edit -->
+            <article id="tabs" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/bg7.jpg">
+              <div class="content-wrapper mid-vertical-positioning clearfix">
+                <div class="col-sm-10 col-md-9 pull-right">
 
-                <!-- CONTACT FORM -->
-                <article id="tabs" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/bg7.jpg">
-                  <div class="content-wrapper mid-vertical-positioning clearfix">
-                    <div class="col-sm-10 col-md-9 pull-right">
+                  <h1 class="section-title">Contact Me</h1>
 
-                      <h1 class="section-title">Contact Me</h1>
+                    <div class="tabpanel styled-tabs uniform-height" role="tabpanel">
 
-                        <div class="tabpanel styled-tabs uniform-height" role="tabpanel">
+                      <!-- Nav tabs -->
+                      <ul class="nav nav-tabs" role="tablist" text-hidden-xs="true">
+                        <li role="presentation" class="active"><a href="#tabs-tab1" aria-controls="tabs-tab1" role="tab" data-toggle="tab"><i class="icon fa fa-diamond"></i><span>Email</span></a></li>
+                        <li role="presentation"><a href="#tabs-tab2" aria-controls="tabs-tab2" role="tab" data-toggle="tab"><i class="icon fa fa-coffee"></i><span>Resume</span></a></li>
+                        <li role="presentation"><a href="#tabs-tab3" aria-controls="tabs-tab3" role="tab" data-toggle="tab"><i class="icon fa fa-train"></i><span>LinkedIn</span></a></li>
+                        <li role="presentation"><a href="#tabs-tab4" aria-controls="tabs-tab4" role="tab" data-toggle="tab"><i class="icon fa fa-coffee"></i><span>Twitter</span></a></li>
+                      </ul>
 
-                          <!-- Nav tabs -->
-                          <ul class="nav nav-tabs" role="tablist" text-hidden-xs="true">
-                            <li role="presentation" class="active"><a href="#tabs-tab1" aria-controls="tabs-tab1" role="tab" data-toggle="tab"><i class="icon fa fa-diamond"></i><span>Email</span></a></li>
-                            <li role="presentation"><a href="#tabs-tab2" aria-controls="tabs-tab2" role="tab" data-toggle="tab"><i class="icon fa fa-coffee"></i><span>Resume</span></a></li>
-                            <li role="presentation"><a href="#tabs-tab3" aria-controls="tabs-tab3" role="tab" data-toggle="tab"><i class="icon fa fa-train"></i><span>LinkedIn</span></a></li>
-                            <li role="presentation"><a href="#tabs-tab4" aria-controls="tabs-tab4" role="tab" data-toggle="tab"><i class="icon fa fa-coffee"></i><span>Twitter</span></a></li>
-                          </ul>
+                      <!-- Tab panes -->
+                      <div class="tab-content">
 
-                          <!-- Tab panes -->
-                          <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane fade in active" id="tabs-tab1">
+                          <h4>Email</h4>
+                          <p>Write me anytime at: <a href="mailto:lvcifferello@gmail.com">lvcifferello@gmail.com</a></p>
+                          <p>I would be happy to meet to grab a drink or coffee and hear chat code</p>
+                        </div>
 
-                            <div role="tabpanel" class="tab-pane fade in active" id="tabs-tab1">
-                              <h4>Email</h4>
-                              <p>Write me anytime at: <a href="mailto:lvcifferello@gmail.com">lvcifferello@gmail.com</a></p>
-                              <p>I would be happy to meet to grab a drink or coffee and hear chat code</p>
-                            </div>
+                        <div role="tabpanel" class="tab-pane fade" id="tabs-tab2">
+                          <h4>Resume</h4>
+                          <p>Check out my offical resume here.</p>
+                        </div>
 
-                            <div role="tabpanel" class="tab-pane fade" id="tabs-tab2">
-                              <h4>Resume</h4>
-                              <p>Check out my offical resume here.</p>
-                            </div>
+                        <div role="tabpanel" class="tab-pane fade" id="tabs-tab3">
+                          <h4>Linked In</h4>
+                          <p>Connect with me over Linked In to see what I have been up to.</p>
+                        </div>
 
-                            <div role="tabpanel" class="tab-pane fade" id="tabs-tab3">
-                              <h4>Linked In</h4>
-                              <p>Connect with me over Linked In to see what I have been up to.</p>
-                            </div>
+                        <div role="tabpanel" class="tab-pane fade" id="tabs-tab4">
+                          <h4>Twitter</h4>
+                          <p>Tweet at me!</p>
+                        </div>
+                      </div><!-- .tab-content -->
 
-                            <div role="tabpanel" class="tab-pane fade" id="tabs-tab4">
-                              <h4>Twitter</h4>
-                              <p>Tweet at me!</p>
-                            </div>
-                          </div><!-- .tab-content -->
+                    </div><!-- .tabpanel -->
 
-                        </div><!-- .tabpanel -->
-
-                    </div><!-- .col-sm-10 -->
-                  </div><!-- .content-wrapper -->
-                </article><!-- .section-wrapper -->
-                <!-- end: CONTACT FORM -->
-
-              <!-- End: Section content to edit -->
-
+                </div><!-- .col-sm-10 -->
+              </div><!-- .content-wrapper -->
+            </article><!-- .section-wrapper -->
           </div><!-- .content-wrapper -->
         </article><!-- .section-wrapper -->
-        <!-- ==================== ENDL SECTION TYPE: Contact ==================== -->
+        <!--===== END CONTACT =====-->
 
       </section><!-- #main-content -->
-      <!-- ==================== END: MAIN CONTENT ==================== -->
+      <!--===== END MAIN CONTENT =====-->
 
-      <!-- Footer -->
+      <!--===== FOOTER =====-->
       <section id="footer">
 
         <!-- Go to Top -->
@@ -487,10 +450,10 @@
         <!-- copyright text -->
         <div class="footer-text-line">&copy; 2015 LVC</div>
       </section>
-      <!-- end: Footer -->
+      <!--===== END FOOTER =====-->
 
     </div><!-- #outer-container -->
-    <!-- end: Outer Container -->
+    <!--===== END OUTER CONTAINER =====-->
 
     <!-- Modal - do not move, delete, or edit, needed to populate content -->
     <div class="modal fade" id="common-modal" tabindex="-1" role="dialog" aria-hidden="true">
@@ -503,8 +466,7 @@
       </div><!-- .modal-dialog -->
     </div><!-- .modal -->
 
-    <!-- Javascripts
-    ================================================== -->
+    <!--===== Javascripts =====-->
 
     <!-- Jquery and Bootstrap JS -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
