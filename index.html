@@ -109,6 +109,7 @@
         <!--===== PROJECTS =====-->
         <article id="projects" class="section-wrapper clearfix" data-custom-background-img="">
           <div class="content-wrapper clearfix">
+          <!-- <h1 class="section-title">PROJECTS</h1><hr> -->
 
               <!-- the carousel is initialised in the initialise-functions.js file, using the id of the container .carousel below -->
               <div id="features-carousel" class="carousel slide with-title-indicators max-height" data-height-percent="70" data-ride="carousel">
@@ -131,49 +132,65 @@
                   <div class="item active">
                     <div class="carousel-text-content">
                       <h2 class="title">DRY Blog</h2>
-                      <i class="icon-javascript-alt"> Javascript&nbsp</i>
-                      <i class="fa fa-cube"><em> AngularJS&nbsp</em></i>
-                      <i class="icon-css">CSS&nbsp</i>
-                      <i class="icon-html">HTML&nbsp</i>
+
+                      <p>Sharing the stories of women in tech.</p>
+
+                      <i class="icon-javascript-alt"> Javascript&nbsp;</i>
+                      <i class="icon-html">HTML&nbsp;</i>
+                      <i class="icon-css">CSS&nbsp;</i>
+                      <i class="fa fa-asterisk"><em> Bootstrap&nbsp;</em></i><br>
+                      <i class="fa fa-cube"><em> AngularJS&nbsp;</em></i>
                       <i class="fa fa-server"><em> Node/Express</em></i>
-                      <i class="icon-mongodb">MongoDB</i>
+                      <i class="icon-mongodb">MongoDB</i><br><br>
 
-                      <p>An original blog platform co-created with <a href="http://www.zoeadelman.com" target="_blank">Zoë Adelman</a>, this site features unqiue advice from women in the Denver tech scene. Content is created from exclusive interviews with these incredibly successful and inspirational women. The purpose of this blog is to serve as a resource for other women in the tech space or those interested in learning more about the stories of the women leading the way.</p>
+                      <a href="" onclick="populate_and_open_modal(event, 'modal-content-1');" class="btn btn-outline-inverse btn-sm">
+                      <img class="project-pic" src="assets/images/custom_images/projects/dry/dry_home_new.png">&nbsp;
+                      <img class="project-pic" src="assets/images/custom_images/projects/dry/dry_home_content.png"></a>
+                      <br><br>
 
-                      <a href="https://github.com/elvece/dry-blog" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
+                      <a href="https://github.com/elvece/dry-blog" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>&nbsp;
+                      <a href="" target="_blank"><i class="fa fa-globe fa-2x"></i></a>
 
-                      <p><a href="" onclick="populate_and_open_modal(event, 'modal-content-1');" class="btn btn-outline-inverse btn-sm">MORE INFO</a></p>
+                      <!-- modal content -->
+                      <div class="content-to-populate-in-modal" id="modal-content-1">
+                        <h3>DRY Blog Description</h3>
+                        <p>Site launch scheduled for October 30, 2015<br/></p>
 
-                    <!-- modal content -->
-                    <div class="content-to-populate-in-modal" id="modal-content-1">
-                      <h3>DRY Blog Images</h3>
-                      <p>Included here are screenshots from the site. Site launch scheduled for October 30, 2015<br/></p>
+                        <p>An original blog platform co-created with <a href="http://www.zoeadelman.com" target="_blank">Zoë Adelman</a>, this site features unqiue advice from women in the Denver tech scene. Content is created from exclusive interviews with these incredibly successful and inspirational women. The purpose of this blog is to serve as a resource for other women in the tech space or those interested in learning more about the stories of the women leading the way.</p>
 
-                      <!-- image slider inside popup -->
-                      <!-- documentation for Owl Carousel: http://www.owlgraphic.com/owlcarousel/#how-to -->
-                      <!-- every Owl Carousel with class .popup-image-gallery are initialised with same parameters when popup is showing (initialised in /js/initialise-functions.js).
-                        - If you want to create an Owl Carousel with different parameters, remove the class .popup-image-gallery, and intialise it in /js/initialise-function.js or at the footer of this page using the unique ID of that particular carousel instead of the class -->
-                      <div id="dry-blog-image-slider" class="owl-carousel popup-image-gallery">
-                        <!-- slide -->
-                        <div>
-                          <h6 class="caption">Landing page</h6>
-                          <img class="lazyOwl" data-src="assets/images/custom_images/projects/dry_home.png">
-                        </div>
-                        <!-- slide -->
-                        <div>
-                          <h6 class="caption">Home page content</h6>
-                          <img class="lazyOwl" data-src="assets/images/custom_images/projects/dry_home_content.png">
-                        </div>
-                        <!-- slide -->
-                        <div>
-                          <h6 class="caption">Individual interview page</h6>
-                          <img class="lazyOwl" data-src="assets/images/custom_images/projects/dry_individual.png">
-                        </div>
-                      </div><!-- end slider div -->
-                      <!-- end: image slider inside popup -->
-                    </div><!-- #modal-content-6 -->
-                      <!-- end: slide content to edit -->
-                    </div>
+                        <!-- image slider inside popup -->
+                        <!-- documentation for Owl Carousel: http://www.owlgraphic.com/owlcarousel/#how-to -->
+                        <!-- every Owl Carousel with class .popup-image-gallery are initialised with same parameters when popup is showing (initialised in /js/initialise-functions.js).
+                          - If you want to create an Owl Carousel with different parameters, remove the class .popup-image-gallery, and intialise it in /js/initialise-function.js or at the footer of this page using the unique ID of that particular carousel instead of the class -->
+                          <div id="dry-blog-image-slider" class="owl-carousel popup-image-gallery">
+                          <!-- slide -->
+                          <div>
+                            <h6 class="caption">Individual page</h6>
+                            <img class="lazyOwl" data-src="assets/images/custom_images/projects/dry/dry_individual.png">
+                          </div>
+                          <!-- slide -->
+                          <div>
+                            <h6 class="caption">Add interview admin page</h6>
+                            <img class="lazyOwl" data-src="assets/images/custom_images/projects/dry/dry_add.png">
+                          </div>
+                          <!-- slide -->
+                          <div>
+                            <h6 class="caption">Resources reference page</h6>
+                            <img class="lazyOwl" data-src="assets/images/custom_images/projects/dry/dry_resources.png">
+                          </div>
+                          <!-- slide -->
+                          <div>
+                            <h6 class="caption">Home page</h6>
+                            <img class="lazyOwl" data-src="assets/images/custom_images/projects/dry/dry_home_new.png">
+                          </div>
+                          <!-- slide -->
+                          <div>
+                            <h6 class="caption">Home content</h6>
+                            <img class="lazyOwl" data-src="assets/images/custom_images/projects/dry/dry_home_content.png">
+                          </div>
+                        </div><!-- end: image slider inside popup -->
+                      </div><!-- #modal-content-6 -->
+                    </div><!-- end carousel text content -->
                   </div><!-- .item -->
                   <!-- END: CAROUSEL SLIDE 1 -->
 
@@ -200,7 +217,6 @@
                         <div id="cbd-image-slider" class="owl-carousel popup-image-gallery">
                           <!-- slide -->
                           <div>
-                            <!-- caption is optional. To remove it, remove the <h6> below -->
                             <h6 class="caption">Landing page</h6>
                             <img class="lazyOwl" data-src="assets/images/custom_images/projects/cbd_bio.png">
                           </div>
