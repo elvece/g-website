@@ -1382,7 +1382,7 @@ h6 {
 
 #main-content .carousel .carousel-indicators.title-indicators {
     position: absolute;
-    top: -10%;
+    bottom: -15%;
     left: 0;
     z-index: 15;
     width: 100%;
