@@ -129,11 +129,11 @@
                 <!-- each slide should have data-slide-to set to the index of the slide (starting from 0), and a short title link for the slide -->
                 <ol class="carousel-indicators title-indicators">
                   <li data-target="#features-carousel" data-slide-to="0" class="active">D/R/Y Blog</li>
-                  <li data-target="#features-carousel" data-slide-to="1">CBD Biosciences</li>
+                  <li data-target="#features-carousel" data-slide-to="1">CBD Bio</li>
                   <!-- <li data-target="#features-carousel" data-slide-to="2">Portfolio</li> -->
                   <li data-target="#features-carousel" data-slide-to="2">Bananas & Butterflies</li>
-                  <li data-target="#features-carousel" data-slide-to="3">The Trail</li>
-
+                  <li data-target="#features-carousel" data-slide-to="3">Odot</li>
+                  <li data-target="#features-carousel" data-slide-to="4">The Trail</li>
                 </ol>
 
                 <!-- Wrapper for slides -->
@@ -204,7 +204,7 @@
                   <!-- CAROUSEL SLIDE 2 -->
                   <div class="item">
                     <div class="carousel-text-content">
-                      <h2 class="title">CBD Biosciences</h2>
+                      <h2 class="title">CBD Bio</h2>
 
                       <p>Company landing page with email subscription.</p>
 
@@ -223,7 +223,7 @@
 
                       <!-- modal content -->
                       <div class="content-to-populate-in-modal" id="modal-content-2">
-                        <h3>CBD Biosciences Description</h3>
+                        <h3>CBD Bio Description</h3>
 
                         <p>Developed for a rush contract job request, this project features a landing page for a partnering company of O.penVAPE. Using a pair programming work-flow with <a href="http://ashleymerriman.com/" target="_blank">Ashley Merriman</a>, this site hosts information about the companies involved following a press release for CBD Biosicences. Client requested multiple logo treatments, which are displayed here.</p>
 
@@ -334,26 +334,75 @@
                   <!-- CAROUSEL SLIDE 5 -->
                   <div class="item">
                     <div class="carousel-text-content">
+                      <h2 class="title">Odot</h2>
+
+                      <p>A todo list application.</p>
+
+                      <i class="icon-javascript-alt"> Javascript&nbsp;</i>
+                      <i class="fa fa-cube"><em> BackboneJS&nbsp;</em></i>
+                      <i class="fa fa-asterisk"><em> Handlebars&nbsp;</em></i>
+                      <i class="icon-css">CSS&nbsp;</i><br>
+                      <i class="fa fa-server"><em> Node/Express</em></i>
+                      <i class="icon-mongodb">MongoDB&nbsp;</i>
+                      <br><br>
+
+                      <a href="" onclick="populate_and_open_modal(event, 'modal-content-5');" class="btn btn-outline-inverse btn-sm">
+                      <img class="project-pic" src="assets/images/custom_images/projects/odot/odot_home.png"></a>
+                      <br><br>
+
+                      <a href="https://github.com/elvece/odot" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>&nbsp;
+                      <a href="https://odot-todo.herokuapp.com/" target="_blank"><i class="fa fa-globe fa-2x"></i></a>
+
+                      <!-- modal content -->
+                      <div class="content-to-populate-in-modal" id="modal-content-5">
+                        <h3>Odot Description</h3>
+                        <p>This application allows users to create a to do list which can then be filtered based on the items completed. Created as part of a challenge to demonstrate my ability to learn a new MVC framework quickly with BackboneJS. Data persists using Mongo.</p>
+
+                        <div id="odot-image-slider" class="owl-carousel popup-image-gallery">
+                          <!-- slide -->
+                          <div>
+                            <h6 class="caption">Main page</h6>
+                            <img class="lazyOwl" data-src="assets/images/custom_images/projects/odot/odot_home.png">
+                          </div>
+                          <!-- slide -->
+                          <div>
+                            <h6 class="caption">Completed Items</h6>
+                            <img class="lazyOwl" data-src="assets/images/custom_images/projects/odot/odot_completed.png">
+                          </div>
+                          <!-- slide -->
+                          <div>
+                            <h6 class="caption">Active Items</h6>
+                            <img class="lazyOwl" data-src="assets/images/custom_images/projects/odot/odot_active.png">
+                          </div>
+                        </div><!-- end: image slider inside popup -->
+                      </div><!-- #modal-content-4 -->
+                    </div> <!-- end: slide content -->
+                  </div><!-- .item -->
+                  <!-- END: CAROUSEL SLIDE 5 -->
+
+                  <!-- CAROUSEL SLIDE 6 -->
+                  <div class="item">
+                    <div class="carousel-text-content">
                       <h2 class="title">The Trail</h2>
 
                       <p>Service to generate a personalized hike recommendation in Colorado.</p>
 
                       <i class="icon-javascript-alt"> Javascript&nbsp;</i>
-                      <i class="fa fa-cube"><em> JQuery&nbsp;</em></i><br>
+                      <i class="fa fa-cube"><em> JQuery&nbsp;</em></i>
+                      <i class="fa fa-server"><em> Node/Express</em></i><br>
                       <i class="fa fa-asterisk"><em> Bootstrap&nbsp;</em></i>
                       <i class="icon-css">CSS&nbsp;</i>
                       <i class="icon-html">HTML&nbsp;</i>
                       <br><br>
 
-                      <a href="" onclick="populate_and_open_modal(event, 'modal-content-5');" class="btn btn-outline-inverse btn-sm"><img class="project-pic" src="assets/images/custom_images/projects/hike/hike_home.png"></a>
+                      <a href="" onclick="populate_and_open_modal(event, 'modal-content-6');" class="btn btn-outline-inverse btn-sm"><img class="project-pic" src="assets/images/custom_images/projects/hike/hike_home.png"></a>
                       <br><br>
 
                       <a href="https://github.com/elvece/node-hike-generator" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>&nbsp;
-<!--                       <a href="" target="_blank"><i class="fa fa-globe fa-2x"></i></a>
- -->
+                      <!-- <a href="" target="_blank"><i class="fa fa-globe fa-2x"></i></a>-->
 
                       <!-- modal content -->
-                      <div class="content-to-populate-in-modal" id="modal-content-5">
+                      <div class="content-to-populate-in-modal" id="modal-content-6">
                         <h3>The Trail Description</h3>
                         <p>This application seeks to solve the often difficult decision of which hike to choose in colorful Colorado. Users complete a short questionnaire from which they receive an individualized hike recommendation. This project is a current work in progress, as I hope to expand the functionality to include  hike data visualizations, an interactive trail map, user contributed images  and comments, and a weather forecast. Site launch anticipated soon.</p>
 
@@ -378,7 +427,7 @@
                       </div><!-- #modal-content-5 -->
                     </div>
                   </div><!-- .item -->
-                  <!-- END: CAROUSEL SLIDE 5 -->
+                  <!-- END: CAROUSEL SLIDE 6 -->
 
                 </div><!-- .carousel-inner -->
 
