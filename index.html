@@ -129,11 +129,11 @@
                 <!-- each slide should have data-slide-to set to the index of the slide (starting from 0), and a short title link for the slide -->
                 <ol class="carousel-indicators title-indicators">
                   <li data-target="#features-carousel" data-slide-to="0" class="active">D/R/Y Blog</li>
-                  <li data-target="#features-carousel" data-slide-to="1">CBD Bio</li>
-                  <!-- <li data-target="#features-carousel" data-slide-to="2">Portfolio</li> -->
-                  <li data-target="#features-carousel" data-slide-to="2">Hola Mundo</li>
-                  <li data-target="#features-carousel" data-slide-to="3">Odot</li>
-                  <li data-target="#features-carousel" data-slide-to="4">The Trail</li>
+                  <li data-target="#features-carousel" data-slide-to="1">Git Tree</li>
+                  <li data-target="#features-carousel" data-slide-to="2">CBD Bio</li>
+                  <li data-target="#features-carousel" data-slide-to="3">Hola Mundo</li>
+                  <li data-target="#features-carousel" data-slide-to="4">Odot</li>
+                  <li data-target="#features-carousel" data-slide-to="5">The Trail</li>
                 </ol>
 
                 <!-- Wrapper for slides -->
@@ -151,7 +151,7 @@
                       <i class="icon-javascript-alt"> Javascript&nbsp;</i>
                       <i class="fa fa-asterisk"><em> Bootstrap&nbsp;</em></i><br>
                       <i class="icon-mongodb">MongoDB&nbsp;</i>
-                      <i class="fa fa-key"><em> Satellizer&nbsp;</em></i>
+                      <i class="fa fa-key"><em> OAuth&nbsp;</em></i>
                       <i class="fa fa-envelope-o"><em> MailChimp&nbsp;</em></i>
                       <i class="fa fa-line-chart"><em> Google Analytics&nbsp;</em></i>
                       <i class="fa fa-desktop"><em> Heroku</em></i>
@@ -206,6 +206,71 @@
                   <!-- CAROUSEL SLIDE 2 -->
                   <div class="item">
                     <div class="carousel-text-content">
+                      <h2 class="title">Git Tree</h2>
+
+                      <p>- A GitHub repository structure visualizer -</p>
+
+                      <i class="fa fa-cube"><em> AngularJS&nbsp;</em></i>
+                      <i class="fa fa-server"><em> Node/ExpressJS</em></i>
+                      <i class="icon-javascript-alt"> Javascript&nbsp;</i>
+                      <i class="fa fa-asterisk"><em> Bootstrap</em></i>
+                      <i class="icon-mongodb">MongoDB&nbsp;</i><br>
+                      <i class="fa fa-key"><em> Social Auth&nbsp;</em></i>
+                      <i class="fa fa-pie-chart"><em> D3&nbsp;</em></i>
+                      <i class="fa fa-tasks"><em> Gulp&nbsp;</em></i>
+                      <i class="fa fa-check-square"><em> Mocha+Chai Testing&nbsp;</em></i>
+                      <i class="fa fa-repeat"><em> Travis CI</em></i>
+
+                      <br><br>
+
+                      <a href="" onclick="populate_and_open_modal(event, 'modal-content-2');" class="btn btn-outline-inverse btn-sm">
+                      <img class="project-pic" src="https://s3.amazonaws.com/lucyportfolio/projects/dry/dry_home_new.png">&nbsp;
+                      <img class="project-pic" src="https://s3.amazonaws.com/lucyportfolio/projects/dry/dry_home_content.png"></a>
+                      <br><br>
+
+                      <a href="https://github.com/elvece/git-tree" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>&nbsp;
+                      <a href="https://git-tree.herokuapp.com" target="_blank"><i class="fa fa-globe fa-2x"></i></a>
+
+                      <!-- modal content -->
+                      <div class="content-to-populate-in-modal" id="modal-content-2">
+                        <h4>Git Tree Description</h4>
+                        <p>Creator of this visualization tool with <a href="http://www.petej.org/" target="_blank">Pete Jeffryes</a>, this app is a learning and collaboration tool. Understanding a project’s structure is paramount to efficient on-boarding, fluid collaboration and deep learning. </p>
+
+                          <div id="git-tree-image-slider" class="owl-carousel popup-image-gallery">
+                          <!-- slide -->
+                          <div>
+                            <h6 class="caption">Individual page</h6>
+                            <img class="lazyOwl" data-src="https://s3.amazonaws.com/lucyportfolio/projects/dry/dry_individual.png">
+                          </div>
+                          <!-- slide -->
+                          <div>
+                            <h6 class="caption">Add interview admin page</h6>
+                            <img class="lazyOwl" data-src="https://s3.amazonaws.com/lucyportfolio/projects/dry/dry_add.png">
+                          </div>
+                          <!-- slide -->
+                          <div>
+                            <h6 class="caption">Resources reference page</h6>
+                            <img class="lazyOwl" data-src="https://s3.amazonaws.com/lucyportfolio/projects/dry/dry_resources.png">
+                          </div>
+                          <!-- slide -->
+                          <div>
+                            <h6 class="caption">Home page</h6>
+                            <img class="lazyOwl" data-src="https://s3.amazonaws.com/lucyportfolio/projects/dry/dry_home_new.png">
+                          </div>
+                          <!-- slide -->
+                          <div>
+                            <h6 class="caption">Home content</h6>
+                            <img class="lazyOwl" data-src="https://s3.amazonaws.com/lucyportfolio/projects/dry/dry_home_content.png">
+                          </div>
+                        </div><!-- end: image slider inside popup -->
+                      </div><!-- #modal-content-6 -->
+                    </div><!-- end carousel text content -->
+                  </div><!-- .item -->
+                  <!-- END: CAROUSEL SLIDE 2 -->
+
+                  <!-- CAROUSEL SLIDE 3 -->
+                  <div class="item">
+                    <div class="carousel-text-content">
                       <h2 class="title">CBD Bio</h2>
 
                       <p>- Company landing page with email subscription -</p>
@@ -216,14 +281,14 @@
                       <i class="fa fa-envelope-o"><em> MailChimp&nbsp;</em></i>
                       <br><br>
 
-                      <a href="" onclick="populate_and_open_modal(event, 'modal-content-2');" class="btn btn-outline-inverse btn-sm"><img class="project-pic" src="https://s3.amazonaws.com/lucyportfolio/projects/cbd/cbd_bio.png"></a>
+                      <a href="" onclick="populate_and_open_modal(event, 'modal-content-3');" class="btn btn-outline-inverse btn-sm"><img class="project-pic" src="https://s3.amazonaws.com/lucyportfolio/projects/cbd/cbd_bio.png"></a>
                       <br><br>
 
                       <a href="https://github.com/elvece/CDB" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>&nbsp;
                       <a href="http://cbdbio.com.cp-43.webhostbox.net/" target="_blank"><i class="fa fa-globe fa-2x"></i></a>
 
                       <!-- modal content -->
-                      <div class="content-to-populate-in-modal" id="modal-content-2">
+                      <div class="content-to-populate-in-modal" id="modal-content-3">
                         <h3>CBD Bio Description</h3>
 
                         <p>Developed for a rush contract job request, this project features a landing page for a partnering company of O.penVAPE. Using a pair programming work-flow with <a href="http://ashleymerriman.com/" target="_blank">Ashley Merriman</a>, this site hosts information about the companies involved following a press release for CBD Biosicences. Client requested multiple logo treatments, which are displayed here.</p>
@@ -249,21 +314,6 @@
                       </div><!-- #modal-content-2 -->
                     </div>
                   </div><!-- .item -->
-                  <!-- END: CAROUSEL SLIDE 2 -->
-
-                  <!-- CAROUSEL SLIDE 3 -->
-                  <!--<div class="item">
-                    <div class="carousel-text-content">
-                      <h2 class="title">Portfolio</h2>
-                      <i class="icon-javascript-alt"> Javascript&nbsp</i>
-                      <i class="fa fa-cube"><em> JQuery&nbsp</em></i>
-                      <i class="icon-css">CSS&nbsp</i>
-                      <i class="icon-html">HTML&nbsp</i>
-
-                      <p>This portfolio was created by altering a template that included several design elements which mimicked my original concept, such as a fixed left menu and scrolling right content section. As I am seeking to further advance my front-end development skills, I wanted this portfolio to be a demonstration of my abilities in this regard. As I began wireframing my idea, I came to realize that the aesthetic I wanted to accomplish was not feasible for the time-frame by which I intended launch this site. Thus, please honor this placeholder site while I am still working on my original design concept. I hope to launch in the next few weeks as I balance school with personal coding time.</p>
-
-                    </div>
-                  </div>--><!-- .item -->
                   <!-- END: CAROUSEL SLIDE 3 -->
 
                   <!-- CAROUSEL SLIDE 4 -->
@@ -337,7 +387,7 @@
                     <div class="carousel-text-content">
                       <h2 class="title">Odot</h2>
 
-                      <p>- A to-do list application -</p>
+                      <p>- A to-do list tracker -</p>
 
                       <i class="fa fa-cube"><em> BackboneJS&nbsp;</em></i>
                       <i class="icon-javascript-alt"> Javascript&nbsp;</i>
